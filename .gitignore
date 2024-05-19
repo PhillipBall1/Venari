@@ -1,0 +1,18 @@
+# Ignore everything in the Assets folder except .cs files
+Assets/*
+/Library/
+/Logs/
+/obj/
+/Packages/
+/ProjectSettings/
+/Temp/
+/UserSettings/
+!Assets/src/
+!Assets/src/**/*.cs
+*.meta
+*.vs
+*.vscode
+*.vsconfig
+*.gitattributes
+*.csproj
+*.sln
